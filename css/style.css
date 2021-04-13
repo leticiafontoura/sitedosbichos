@@ -1,0 +1,110 @@
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  background-color: #29A0B1;
+  color: #ffffff;
+  margin: 0 0 30px 0;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 300;
+}
+
+h2 {
+  color: #7a6263;
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 22px;
+  font-style: italic;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+#chestercheddar h3 {
+  color: #3D5B59;
+}
+
+#laranjojuba h3 {
+  color: #B5E5CF;
+}
+
+#carmelitaconsuela h3 {
+  color: #FCB5AC;
+}
+
+section {
+  width: 60%;
+  margin: 0 auto;
+}
+
+section section {
+  width: 100%;
+}
+
+img {
+  width: 40%;
+  border: 2px dashed #E2808A;
+}
+
+ul {
+  list-style-type: none;
+  line-height: 2;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #D8A7B1;
+  font-weight: 700;
+}
+
+.main-menu ul li a {
+  color: #fff;
+  font-weight: normal;
+  text-decoration: underline;
+  
+}
+
+.main-menu {
+  background-color: #D48C70;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.main-menu li {
+  line-height: 2.5;
+  margin: 0 50px;
+  display: inline-block;
+  transition: 0.3s;
+  padding: 0 10px;
+}
+
+.main-menu li:hover {
+  background-color: #3D5B59;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+button {
+  background-color: #FCB5AC;
+  border: 1px solid transparent;
+  padding: 2px 20px;
+  border-radius: 3px;
+  color: #fff;
+  transition: 0.4s;
+}
+
+button:hover {
+ background-color: rgb(228, 153, 143);
+}
